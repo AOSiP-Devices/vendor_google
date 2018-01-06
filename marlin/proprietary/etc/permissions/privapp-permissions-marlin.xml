@@ -31,4 +31,18 @@
     <privapp-permissions package="com.tmobile.planprovider">
         <permission name="android.permission.MANAGE_SUBSCRIPTION_PLANS"/>
     </privapp-permissions>
+
+    <!-- These manually added because of the vendor apps added to priv-app -->
+    <privapp-permissions package="com.qti.qualcomm.datastatusnotification">
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="org.codeaurora.ims">
+        <permission name="android.permission.BIND_IMS_SERVICE"/>
+        <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.qualcomm.qti.ims">
+        <permission name="android.permission.BIND_IMS_SERVICE"/>
+    </privapp-permissions>
 </permissions>
