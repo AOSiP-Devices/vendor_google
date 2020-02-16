@@ -192,7 +192,7 @@ android_app_import {
 	name: "Tycho",
 	owner: "google",
 	apk: "proprietary/product/app/Tycho/Tycho.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -225,7 +225,7 @@ android_app_import {
 	name: "AmbientSensePrebuilt",
 	owner: "google",
 	apk: "proprietary/product/priv-app/AmbientSensePrebuilt/AmbientSensePrebuilt.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -249,7 +249,7 @@ android_app_import {
 	name: "CarrierServices",
 	owner: "google",
 	apk: "proprietary/product/priv-app/CarrierServices/CarrierServices.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -261,7 +261,7 @@ android_app_import {
 	name: "CarrierSettings",
 	owner: "google",
 	apk: "proprietary/product/priv-app/CarrierSettings/CarrierSettings.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -273,7 +273,7 @@ android_app_import {
 	name: "CarrierSetup",
 	owner: "google",
 	apk: "proprietary/product/priv-app/CarrierSetup/CarrierSetup.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -333,7 +333,7 @@ android_app_import {
 	name: "EuiccGoogle",
 	owner: "google",
 	apk: "proprietary/product/priv-app/EuiccGoogle/EuiccGoogle.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -345,7 +345,7 @@ android_app_import {
 	name: "EuiccSupportPixel",
 	owner: "google",
 	apk: "proprietary/product/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -369,7 +369,7 @@ android_app_import {
 	name: "HotwordEnrollmentOKGoogleRT5514",
 	owner: "google",
 	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleRT5514/HotwordEnrollmentOKGoogleRT5514.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -381,7 +381,7 @@ android_app_import {
 	name: "HotwordEnrollmentXGoogleRT5514",
 	owner: "google",
 	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleRT5514/HotwordEnrollmentXGoogleRT5514.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -453,7 +453,7 @@ android_app_import {
 	name: "SCONE",
 	owner: "google",
 	apk: "proprietary/product/priv-app/SCONE/SCONE.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -501,7 +501,7 @@ android_app_import {
 	name: "TetheringEntitlement",
 	owner: "google",
 	apk: "proprietary/product/priv-app/TetheringEntitlement/TetheringEntitlement.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -513,7 +513,7 @@ android_app_import {
 	name: "TmobileGrsuPrebuilt",
 	owner: "google",
 	apk: "proprietary/product/priv-app/TmobileGrsuPrebuilt/TmobileGrsuPrebuilt.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
