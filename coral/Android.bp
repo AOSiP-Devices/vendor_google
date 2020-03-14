@@ -78,7 +78,7 @@ android_app_import {
 	name: "VZWAPNLib",
 	owner: "google",
 	apk: "proprietary/product/app/VZWAPNLib/VZWAPNLib.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -418,7 +418,7 @@ android_app_import {
 	name: "OBDM_Permissions",
 	owner: "google",
 	apk: "proprietary/product/priv-app/OBDM_Permissions/OBDM_Permissions.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -430,7 +430,7 @@ android_app_import {
 	name: "OemDmTrigger",
 	owner: "google",
 	apk: "proprietary/product/priv-app/OemDmTrigger/OemDmTrigger.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -574,7 +574,7 @@ android_app_import {
 	name: "WfcActivation",
 	owner: "google",
 	apk: "proprietary/product/priv-app/WfcActivation/WfcActivation.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
