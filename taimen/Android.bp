@@ -475,3 +475,54 @@ dex_import {
 	product_specific: true,
 }
 
+android_app_import {
+	name: "ModemService",
+	owner: "google",
+	apk: "proprietary/vendor/app/ModemService/ModemService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "QtiTelephonyService",
+	owner: "google",
+	apk: "proprietary/vendor/app/QtiTelephonyService/QtiTelephonyService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "TimeService",
+	owner: "google",
+	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
+	name: "wahoo_gfxdrv",
+	owner: "google",
+	apk: "proprietary/vendor/app/wahoo_gfxdrv/wahoo_gfxdrv.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+dex_import {
+	name: "qti-vzw-ims-internal",
+	owner: "google",
+	jars: ["proprietary/vendor/framework/qti-vzw-ims-internal.jar"],
+	soc_specific: true,
+}
+
