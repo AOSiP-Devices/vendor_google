@@ -204,6 +204,7 @@ PRODUCT_PACKAGES += \
     DiagMon \
     EuiccGoogle \
     EuiccSupportPixel \
+    GCS \
     HardwareInfo \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
