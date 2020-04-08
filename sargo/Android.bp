@@ -282,6 +282,18 @@ android_app_import {
 }
 
 android_app_import {
+	name: "CarrierWifi",
+	owner: "google",
+	apk: "proprietary/product/priv-app/CarrierWifi/CarrierWifi.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
 	name: "ConnMO",
 	owner: "google",
 	apk: "proprietary/product/priv-app/ConnMO/ConnMO.apk",
@@ -345,6 +357,18 @@ android_app_import {
 	name: "EuiccSupportPixel",
 	owner: "google",
 	apk: "proprietary/product/priv-app/EuiccSupportPixel/EuiccSupportPixel.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "GCS",
+	owner: "google",
+	apk: "proprietary/product/priv-app/GCS/GCS.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
