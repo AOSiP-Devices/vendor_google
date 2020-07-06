@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter coral,$(TARGET_DEVICE)),)
+ifeq ($(TARGET_DEVICE),coral)
 
 endif
