@@ -610,7 +610,7 @@ android_app_import {
 	name: "obdm_stub",
 	owner: "google",
 	apk: "proprietary/product/priv-app/obdm_stub/obdm_stub.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
