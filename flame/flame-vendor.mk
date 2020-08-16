@@ -688,6 +688,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/etc/qdcm_calib_data_nt37280_amoled_5.68_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt37280_amoled_5.68_cmd_mode_panel.xml \
     vendor/google/flame/proprietary/vendor/etc/qdcm_calib_data_s6e3hc2_amoled_6.2_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_s6e3hc2_amoled_6.2_cmd_mode_panel.xml \
     vendor/google/flame/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
+    vendor/google/flame/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base.policy \
+    vendor/google/flame/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext.policy \
     vendor/google/flame/proprietary/vendor/etc/sensors/config/ak991x_polling_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_polling_0.json \
     vendor/google/flame/proprietary/vendor/etc/sensors/config/bmp380.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bmp380.json \
     vendor/google/flame/proprietary/vendor/etc/sensors/config/c2_bmp380.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/c2_bmp380.json \
