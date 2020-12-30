@@ -156,7 +156,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/product/etc/sysconfig/pixel_experience_2018.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2018.xml \
     vendor/google/flame/proprietary/product/etc/sysconfig/pixel_experience_2019.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2019.xml \
     vendor/google/flame/proprietary/product/etc/sysconfig/pixel_experience_2019_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2019_midyear.xml \
-    vendor/google/flame/proprietary/product/etc/sysconfig/whitelist_com.android.omadm.service.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/whitelist_com.android.omadm.service.xml \
     vendor/google/flame/proprietary/product/lib/libdmengine.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libdmengine.so \
     vendor/google/flame/proprietary/product/lib/libdmjavaplugin.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libdmjavaplugin.so \
     vendor/google/flame/proprietary/product/lib/libqmi_cci_system.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libqmi_cci_system.so \
@@ -176,7 +175,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/product/priv-app/EuiccSupportPixel/esim-full-v1.img:$(TARGET_COPY_OUT_PRODUCT)/priv-app/EuiccSupportPixel/esim-full-v1.img \
     vendor/google/flame/proprietary/product/priv-app/MyVerizonServices/lib/arm64/libakuaf.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/MyVerizonServices/lib/arm64/libakuaf.so \
     vendor/google/flame/proprietary/product/priv-app/MyVerizonServices/lib/arm64/libmotricity.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/MyVerizonServices/lib/arm64/libmotricity.so \
-    vendor/google/flame/proprietary/product/priv-app/SCONE/lib/arm64/libborders_scone_leveldb_jni.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/SCONE/lib/arm64/libborders_scone_leveldb_jni.so \
     vendor/google/flame/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/google/flame/proprietary/system_ext/etc/permissions/com.android.omadm.radioconfig.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.omadm.radioconfig.xml \
     vendor/google/flame/proprietary/system_ext/etc/permissions/com.qualcomm.qcrilmsgtunnel.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qcrilmsgtunnel.xml \
@@ -474,6 +472,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/bin/hw/init_citadel:$(TARGET_COPY_OUT_VENDOR)/bin/hw/init_citadel \
     vendor/google/flame/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
     vendor/google/flame/proprietary/vendor/bin/hw/vendor.google.airbrush@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.google.airbrush@1.0-service \
+    vendor/google/flame/proprietary/vendor/bin/hw/vendor.google.google_battery@1.0-service-vendor:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.google.google_battery@1.0-service-vendor \
     vendor/google/flame/proprietary/vendor/bin/hw/vendor.google.radioext@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.google.radioext@1.0-service \
     vendor/google/flame/proprietary/vendor/bin/hw/vendor.google.wifi_ext@1.0-service-vendor:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.google.wifi_ext@1.0-service-vendor \
     vendor/google/flame/proprietary/vendor/bin/hw/vendor.google.wireless_charger@1.2-service-vendor:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.google.wireless_charger@1.2-service-vendor \
@@ -501,7 +500,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/bin/port-bridge:$(TARGET_COPY_OUT_VENDOR)/bin/port-bridge \
     vendor/google/flame/proprietary/vendor/bin/ppd:$(TARGET_COPY_OUT_VENDOR)/bin/ppd \
     vendor/google/flame/proprietary/vendor/bin/ptt_socket_app:$(TARGET_COPY_OUT_VENDOR)/bin/ptt_socket_app \
-    vendor/google/flame/proprietary/vendor/bin/qdcmss:$(TARGET_COPY_OUT_VENDOR)/bin/qdcmss \
     vendor/google/flame/proprietary/vendor/bin/qmi-framework-tests/qmi_test_mt_client_init_instance:$(TARGET_COPY_OUT_VENDOR)/bin/qmi-framework-tests/qmi_test_mt_client_init_instance \
     vendor/google/flame/proprietary/vendor/bin/qrtr-cfg:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-cfg \
     vendor/google/flame/proprietary/vendor/bin/qrtr-lookup:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-lookup \
@@ -704,10 +702,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
     vendor/google/flame/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
     vendor/google/flame/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
-    vendor/google/flame/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
     vendor/google/flame/proprietary/vendor/etc/init/rebootescrow-citadel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rebootescrow-citadel.rc \
     vendor/google/flame/proprietary/vendor/etc/init/rlsservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rlsservice.rc \
     vendor/google/flame/proprietary/vendor/etc/init/vendor.google.airbrush@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.airbrush@1.0-service.rc \
+    vendor/google/flame/proprietary/vendor/etc/init/vendor.google.google_battery@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.google_battery@1.0-service.rc \
     vendor/google/flame/proprietary/vendor/etc/init/vendor.google.radioext@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.radioext@1.0-service.rc \
     vendor/google/flame/proprietary/vendor/etc/init/vendor.google.wifi_ext@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.wifi_ext@1.0-service.rc \
     vendor/google/flame/proprietary/vendor/etc/init/vendor.google.wireless_charger@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.google.wireless_charger@1.2-service.rc \
@@ -1294,6 +1292,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/lib/libstreamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstreamparser.so \
     vendor/google/flame/proprietary/vendor/lib/libstreset.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstreset.so \
     vendor/google/flame/proprietary/vendor/lib/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsubsystem_control.so \
+    vendor/google/flame/proprietary/vendor/lib/libsueznanoappclients.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsueznanoappclients.so \
     vendor/google/flame/proprietary/vendor/lib/libsurround_3mic_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsurround_3mic_proc.so \
     vendor/google/flame/proprietary/vendor/lib/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswregistrationalgo.so \
     vendor/google/flame/proprietary/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
@@ -1492,6 +1491,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/google/flame/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/google/flame/proprietary/vendor/lib64/g3a.data.manager.vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/g3a.data.manager.vendor.so \
+    vendor/google/flame/proprietary/vendor/lib64/google_wifi_firmware_config_info_cc_proto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/google_wifi_firmware_config_info_cc_proto.so \
     vendor/google/flame/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/google/flame/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/google/flame/proprietary/vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.0-impl-qti.so \
@@ -1790,6 +1790,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/lib64/libstpreprocess.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstpreprocess.so \
     vendor/google/flame/proprietary/vendor/lib64/libstreset.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstreset.so \
     vendor/google/flame/proprietary/vendor/lib64/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsubsystem_control.so \
+    vendor/google/flame/proprietary/vendor/lib64/libsueznanoappclients.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsueznanoappclients.so \
     vendor/google/flame/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
     vendor/google/flame/proprietary/vendor/lib64/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswvdec.so \
     vendor/google/flame/proprietary/vendor/lib64/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysmon_cdsp_skel.so \
@@ -1832,6 +1833,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
     vendor/google/flame/proprietary/vendor/lib64/vendor.google.airbrush.manager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.airbrush.manager@1.0.so \
     vendor/google/flame/proprietary/vendor/lib64/vendor.google.darwinn.service@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.darwinn.service@1.0.so \
+    vendor/google/flame/proprietary/vendor/lib64/vendor.google.google_battery@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.google_battery@1.0.so \
     vendor/google/flame/proprietary/vendor/lib64/vendor.google.radioext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.radioext@1.0.so \
     vendor/google/flame/proprietary/vendor/lib64/vendor.google.radioext@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.radioext@1.1.so \
     vendor/google/flame/proprietary/vendor/lib64/vendor.google.radioext@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.google.radioext@1.2.so \
@@ -1887,6 +1889,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so \
     vendor/google/flame/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so \
     vendor/google/flame/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@2.3.so \
+    vendor/google/flame/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@2.4.so \
     vendor/google/flame/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim@1.0.so \
     vendor/google/flame/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim@1.1.so \
     vendor/google/flame/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim@1.2.so \
@@ -1917,6 +1920,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/vendor/radio/qcril_database/upgrade/11_remove_fr_orange.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/11_remove_fr_orange.sql \
     vendor/google/flame/proprietary/vendor/radio/qcril_database/upgrade/12_israel_normal_ecc.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/12_israel_normal_ecc.sql \
     vendor/google/flame/proprietary/vendor/radio/qcril_database/upgrade/13_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/13_version_update_ecc_table.sql \
+    vendor/google/flame/proprietary/vendor/radio/qcril_database/upgrade/14_add_fr_normal_ecc.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/14_add_fr_normal_ecc.sql \
+    vendor/google/flame/proprietary/vendor/radio/qcril_database/upgrade/15_fr_normal_ecc_on_wifi.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/15_fr_normal_ecc_on_wifi.sql \
     vendor/google/flame/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
     vendor/google/flame/proprietary/vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/2_version_add_wps_config.sql \
     vendor/google/flame/proprietary/vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/3_version_update_wps_config.sql \
