@@ -376,7 +376,6 @@ PRODUCT_PACKAGES += \
     ConnMO \
     DCMO \
     DMService \
-    DevicePersonalizationPrebuiltPixel4 \
     DiagMon \
     DreamlinerPrebuilt \
     DreamlinerUpdater \
